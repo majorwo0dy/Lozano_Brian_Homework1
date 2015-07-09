@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clipping Paths</title>
+    <style type="text/css">
+        #Canvas1{
+            border: dotted 1px black;
+
+
+        }
+    </style>
+
+</head>
+<body>
+<h1>Clipping Paths</h1>
+<p>clipping paths restrict drawing to a particular area of the canvas. Think of  a clipping paths as masks
+areas where the mask is empty show through, while areas where the mask is opaque do not.</p>
+<p>Any path can be clipping path. You simply draw the path as normal and then call the context's clip()
+    function to create one.</p>
+<canvas id="Canvas1" width="800" height="600">
+    Your browser does not support canvas.
+</canvas>
+    <img id="img1" src="images/flowers.jpg" width ="800" height="600" style="display:none;">
+
+<script type="text/javascript" src="js/clipping.js"></script>
+
+</body>
+
+</html>
