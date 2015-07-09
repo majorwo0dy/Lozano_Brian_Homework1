@@ -161,7 +161,7 @@ window.onload= function() {
 
                                     //stroke a simple Bezier curve
                                     ctx.beginPath();
-                                    ctx.moveTo(50, 200);
+                                    ctx.moveTo(60, 200);
 
                                     //Bezier CurveTo(cx1 ,cy1 ,cx2 ,cy2 x,y)
 
