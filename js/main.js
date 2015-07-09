@@ -1,7 +1,7 @@
 /*
      Name:Brian Lozano
-     Date:
-     Class & Section:  WIA-####
+     Date:07/9/15
+     Class & Section:  WIA-section1
      Comments: "HTML5 Canvas Drawing"
  */
 
